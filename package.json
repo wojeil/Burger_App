@@ -1,0 +1,32 @@
+{
+  "name": "burger_app",
+  "version": "1.0.0",
+  "description": "project 13 MVS Burger App",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wojeil/Burger_App.git"
+  },
+  "keywords": [
+    "node",
+    "npm",
+    "mysql",
+    "burger"
+  ],
+  "author": "Wadih Ojeil",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wojeil/Burger_App/issues"
+  },
+  "homepage": "https://github.com/wojeil/Burger_App#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "handlebars-helper-css": "^0.1.0",
+    "mysql": "^2.18.1"
+  }
+}
