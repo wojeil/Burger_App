@@ -5,14 +5,23 @@ body {
 #jumbo {
   background-color: goldenrod;
   text-align: center;
-}
+ }
+
+ img {
+   width: 200px;
+ }
+
+ .burgerSign{
+   font-size: 100px;
+   font-weight: bolder;
+ }
 
 
 
 li {
     padding: 5px;
     margin: 5px;
-    background: #faebd7;
+    background: #2da01e;
   }
   
   .label {
@@ -20,12 +29,22 @@ li {
   }
   
   .create-form{
-    padding: 10px;
-    margin: 10px;
-    background: #faebd7;
+    padding: 45px;
+    margin: 20px;
+    background: #472b05;
+    color: honeydew;
+    font-size: 18px;
+    font-weight: bold;
   }
   
   .form-group {
     margin-bottom: 5px;
-     background: #faebd7;
+     background: #472b05;
+  }
+  footer{
+    padding: 30px;
+    text-align: center;
+    background-color: goldenrod;
+    font-weight: bolder;
+
   }
