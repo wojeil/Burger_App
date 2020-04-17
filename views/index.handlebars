@@ -7,38 +7,7 @@
 </div>
 
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-2">
-      <h2>Burgers to eat!</h2>
-
-      <ul>
-        {{#each burgers}}
-        {{#unless eat}}
-        {{> burgers/burger-block eat=true}}
-        {{/unless}}
-        {{/each}}
-      </ul>
-    </div>
-    <div class="col-sm-10"></div>
-  </div>
-
-  <div class="row">
-    <div class="col-sm-2">
-
-      <h2> Eaten Burgers!</h2>
-
-      <ul>
-        {{#each burgers}}
-        {{#if eat}}
-        {{> burgers/burger-block eat=false}}
-        {{/if}}
-        {{/each}}
-      </ul>
-    </div>
-    <div class="col-sm-10"></div>
-  </div>
-  
-  <div class="row">
+    <div class="row">
     <div class="col-sm-12">
       <h2>Add a Burger</h2>
       <form class="create-form">
@@ -54,6 +23,38 @@
     </div>
     {{!-- <div class="col-sm-8"></div> --}}
   </div>
+  <div class="row">
+    <div class="col-sm-6">
+      <h2>Burgers to eat!</h2>
+
+      <ul>
+        {{#each burgers}}
+        {{#unless eat}}
+        {{> burgers/burger-block eat=true}}
+        {{/unless}}
+        {{/each}}
+      </ul>
+    </div> <div class="col-sm-6">
+
+      <h2> Eaten Burgers!</h2>
+
+      <ul>
+        {{#each burgers}}
+        {{#if eat}}
+        {{> burgers/burger-block eat=false}}
+        {{/if}}
+        {{/each}}
+      </ul>
+    </div>
+    
+  </div>
+
+  <div class="row">
+   
+    <div class="col-sm-12" id="beef"></div>
+  </div>
+  
+
 
 </div>
 <footer> yum yum</footer>
