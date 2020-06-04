@@ -54,3 +54,7 @@ li {
     font-weight: bolder;
 
   }
+
+  .btn {
+    background-color: goldenrod;
+  }
